@@ -7,8 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  nba_players = ["Lebron", "Giannis", "Kawhi", "Doncic"]
-  nba_players << "arrays!"
+  array << "element"
 end
 
 def add_element_to_start_of_array(array, element)
